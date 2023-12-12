@@ -115,13 +115,13 @@ const Works = () => {
         className="text-sm text-[#ffffff85] mb-1 md:text-md"
         initial={{ x: -200 }}
         whileInView={{ x: 0 }}
-        transition={{ type: "spring", stiffness: 50 }}
+        transition={{ type: "spring", stiffness: 100 }}
       >
         MY WORK{" "}
       </motion.h4>
       <motion.h2
         className="text-4xl mb-8 md:text-5xl"
-        initial={{ x: -300 }}
+        initial={{ x: -100 }}
         whileInView={{ x: 0 }}
         transition={{ type: "spring", stiffness: 50, delay: 0 }}
       >

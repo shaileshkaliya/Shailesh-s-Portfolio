@@ -7,7 +7,7 @@ const ServiceCard = ({index, title, imgsrc}) => {
         <motion.div
             initial={{x:-120, scale:0}}
             whileInView={{x:0, scale:0.75}}
-            transition={{type:'spring', stiffness:30, delay:index*0.5, ease: "easeOut"}}
+            transition={{type:'spring', stiffness:30, delay:index*0.2, ease: "easeOut"}}
             className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card m-2"
         >
             <div 

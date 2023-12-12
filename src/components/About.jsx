@@ -5,7 +5,7 @@ import icon1 from "../assets/backend.png";
 import icon2 from "../assets/mobile.png";
 import icon3 from "../assets/web.png";
 import icon4 from "../assets/creator.png";
-import Mine from "../assets/mine_cropped.jpeg";
+import Mine from "../assets/mine.jpeg";
 import "./about.css";
 import { GitHubIcon, LinkedInIcon } from "./Icons";
 
@@ -51,7 +51,7 @@ const About = () => {
 
       <motion.div className="mt-8 lg:h-[300px] lg:flex lg:flex-row-reverse lg:justify-end">
         <div className="w-full flex flex-col justify-between items-center profile-pic-div ">
-          <div className="overflow-hidden h-full rounded-2xl lg:rounded-full	">
+          <div className="overflow-hidden h-full 	">
             <motion.img
               src={Mine}
               alt="Profile"

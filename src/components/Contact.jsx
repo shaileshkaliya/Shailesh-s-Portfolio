@@ -61,11 +61,11 @@ const Contact = () => {
 
   return (
     <div
-      className="h-screen flex justify-center flex-col-reverse lg:gap-44 items-center lg:flex-row gap-8 overflow-hidden"
+      className=" flex justify-center flex-col-reverse lg:gap-44 items-center lg:flex-row gap-8 overflow-hidden"
       id="contact"
     >
       <motion.div
-        className="bg-black-100 h-3/4 flex flex-col p-6"
+        className="bg-black-100 h-3/4 flex flex-col p-6 mb-8"
         initial={{ x: -200 }}
         whileInView={{ x: 0 }}
         transition={{ type: "tween", duration: 0.7 }}
@@ -76,7 +76,7 @@ const Contact = () => {
         <h3 className="text-white font-black md:text-4xl sm:text-3xl xs:text-2xl text-xl mb-4">
           Contact.
         </h3>
-        <div className="lg:w-[400px] sm:w-[350px]">
+        <div className="lg:w-[400px] sm:w-[350px] min-w-[250px]">
           <form
             action=""
             className="flex flex-col gap-3"
@@ -129,8 +129,8 @@ const Contact = () => {
       </motion.div>
 
       <motion.div
-        className="md:w-[350px] md:h-[350px] w-[250px] h-[250px] mt-16 md:mt-0"
-        initial={{ x: 400 }}
+        className="md:w-[350px] md:h-[350px] w-auto h-auto mt-16 md:mt-0 "
+        initial={{ x: 200 }}
         whileInView={{ x: 0 }}
         transition={{ type: "tween", duration: 0.7 }}
       >
