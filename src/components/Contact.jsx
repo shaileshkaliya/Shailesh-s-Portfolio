@@ -28,8 +28,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_61mm0uw',
-        'template_yb78v8j',
+        service_id,
+        template_id,
         {
           from_name: form.name,
           to_name: "Shailesh Kaliya",
@@ -37,7 +37,7 @@ const Contact = () => {
           to_email: "shaileshkaliya124@gmail.com",
           message: form.message,
         },
-        'hgdy7Cuj6bHyfj9eU'
+        public_key
       )
       .then(
         () => {
