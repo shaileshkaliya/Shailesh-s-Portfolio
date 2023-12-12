@@ -1,0 +1,9 @@
+# .editorconfig
+
+# Set the default end-of-line for all files
+[*]
+end_of_line = lf
+
+# Explicitly declare files that should have CRLF line endings
+[*.jsx]
+end_of_line = crlf
