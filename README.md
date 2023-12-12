@@ -2,8 +2,6 @@
 
 This is my portfolio showing digital space to get a glimpse of my journey, skills, and projects. 3D models used in it give a mesmerizing looks to my portfolio.
 
-CourseConnect is a powerful course recommendation system built using the MERN (MongoDB, Express.js, React.js, Node.js) stack, along with machine learning and deep learning models powered by FastAPI. This project aims to provide users with personalized course recommendations based on their skills, preferences, and learning patterns. Whether you're a student looking for the perfect course or an enthusiast eager to expand your knowledge, CourseConnect is your gateway to an enriched learning experience.
-
 -  ## Screenshots
 - ![Example Image](Screenshots/portfolio1.png)
 
