@@ -22,4 +22,3 @@ This is my portfolio showing digital space to get a glimpse of my journey, skill
 - **Three.js**: Leveraged the capabilities of Three.js to bring interactive 3D elements to life.
 
 - **Email JS:** Sending email directly from your code – no server side code required. Add static or dynamic attachments, dynamic parameters, captcha code and more.
-## Contribution
