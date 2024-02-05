@@ -5,7 +5,8 @@ import icon1 from "../assets/backend.png";
 import icon2 from "../assets/mobile.png";
 import icon3 from "../assets/web.png";
 import icon4 from "../assets/creator.png";
-import Mine from "../assets/mine.jpeg";
+// import Mine from "../assets/mine.jpeg";
+import Mine from "../assets/profile_img.jpg";
 import "./about.css";
 import { GitHubIcon, LinkedInIcon } from "./Icons";
 
@@ -67,7 +68,7 @@ const About = () => {
               <span>
                 {" "}
                 <a
-                  href="https://drive.google.com/file/d/13bJfsdq_yADtGZqTtfkkI2yZIYTZonwg/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Ok92-V7Ama8VcWpOVC-iQfsuJzbrQ6s9/view?usp=sharing"
                   target="_blank"
                 >
                   Download Resume{" "}

@@ -21,7 +21,7 @@ const Typewriter = ({ text, delay, infinite }) => {
     return () => clearTimeout(timeout);
   }, [currentIndex, delay, infinite, text]);
 
-  return <span>{currentText}</span>;
+  return <span>{currentText.slice(0,-9)}</span>;
 };
 
 export default Typewriter;

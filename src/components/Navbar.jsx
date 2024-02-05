@@ -1,5 +1,7 @@
 import logo from '../assets/logo.png'
-import { menu, close } from "../assets";
+// import { menu, close } from "../assets";
+import menu from '../assets/menu.svg'
+import close from '../assets/close.svg'
 import { useState } from 'react';
 
 const Navbar = () => {

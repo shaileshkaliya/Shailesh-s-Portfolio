@@ -87,6 +87,7 @@ const Contact = () => {
               <span className="text-[13px]">Your Name</span>
               <input
                 type="text"
+                required
                 placeholder="What's Your Name ?"
                 name="name"
                 value={form.name}
@@ -98,6 +99,7 @@ const Contact = () => {
               <span className="text-[13px]">Your Mail</span>
               <input
                 type="email"
+                required
                 placeholder="What's Your Mail ?"
                 name="email"
                 value={form.email}
@@ -110,6 +112,7 @@ const Contact = () => {
               <span className="text-[13px]">Your Message </span>
               <textarea
                 rows="7"
+                required
                 placeholder="What do you want to say ?"
                 name="message"
                 value={form.message}
